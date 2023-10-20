@@ -16,4 +16,18 @@ let myobj = {
     age: 32,
 }
 
-console.log(typeof bigNumber)
+// console.log(typeof bigNumber)
+
+//********************************************* */+++++++++++++
+
+
+let userOne ={
+    email: "user@gmail.com",
+    age: 34,
+}
+
+let userTwo=userOne
+userTwo.email = "user2@gmail.com"
+userTwo.age=2
+
+console.table([userOne.email,userOne.age,userTwo.email,userTwo.age])
