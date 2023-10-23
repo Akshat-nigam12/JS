@@ -22,7 +22,11 @@ const user = {
 
 // or
 
-const addTwoEle =  (num1, num2) => num1+num2
+// const addTwoEle =  (num1, num2) => num1+num2
+
+const addTwoEle =  (num1, num2) => ({userName : "Akshat"})
 
 
-console.log(addTwoEle(5,10));
+// console.log(addTwoEle(5,10));
+
+
