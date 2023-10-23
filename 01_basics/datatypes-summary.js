@@ -27,7 +27,7 @@ let userOne ={
 }
 
 let userTwo=userOne
-userTwo.email = "user2@gmail.com"
-userTwo.age=2
+// userTwo.email = "user2@gmail.com"
+// userTwo.age=2
 
 console.table([userOne.email,userOne.age,userTwo.email,userTwo.age])

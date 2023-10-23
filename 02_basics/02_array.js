@@ -22,7 +22,7 @@ let score1= 29
 let score2= 34
 let score3= 43
 
-console.log(Array.of(score1,score2,score3));
+console.log(Array.of(1,2,3));
 
 
 
